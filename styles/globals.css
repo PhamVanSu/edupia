@@ -28,3 +28,19 @@ ul {
 img {
   display: initial;
 }
+
+.home-link {
+  @apply font-normal text-[32px];
+}
+
+.menu {
+  @apply flex flex-wrap items-center justify-between;
+}
+
+.nav-link {
+  @apply text-base;
+}
+
+.nav-link {
+  @apply text-base;
+}
