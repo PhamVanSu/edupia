@@ -4,7 +4,7 @@ import React from 'react'
 const Footer: React.FC = () => {
   return (
     <footer className="bg-[#00378A] h-[375px] w-full text-[#ffffff] flex justify-center">
-      <div className="container flex pt-[43px] pb-[37.5px]">
+      <div className="container flex pt-[43px] pb-[37.5px] pl-[153px] pr-[126px]">
         <div className="w-1/3 flex flex-col justify-between">
           <div>
             <h3 className="text-[32px] font-bold my-[9.5px]">Edupia Class</h3>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
               <li className="mb-[6px]">Đội ngũ giáo viên</li>
             </ul>
           </div>
-          <div className="flex justify-between w-[150px]">
+          <div className="flex justify-between">
             <Image src="/facebook.svg" width={8} height={16} alt="" />
             <Image src="/twitter.svg" width={16} height={16} alt="" />
             <Image src="/linkedin.svg" width={16} height={16} alt="" />

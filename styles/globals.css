@@ -42,12 +42,9 @@ img {
 }
 
 .menu-item {
+  @apply font-medium text-base text-[#616364] flex flex-col justify-center items-center;
 }
 
-.nav-link {
-  @apply text-base;
-}
-
-.nav-link {
-  @apply text-base;
+.menu-item-active {
+  @apply text-[#004FC5];
 }

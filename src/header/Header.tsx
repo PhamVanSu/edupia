@@ -37,15 +37,13 @@ const Header: React.FC = () => {
             <span className="text-[#004FC5]">Edupia</span>Class
           </h1>
         </a>
-        <div className="">
+        <div>
           <Menu content={contentMenu} />
         </div>
 
-        <div className="">
-          <button className="rounded-3xl w-[143px] h-[49px] py-3 px-6 bg-[#004FC5] text-[#ffffff] text-lg font-bold">
-            Đăng nhập
-          </button>
-        </div>
+        <button className="rounded-3xl w-[143px] h-[49px] py-3 px-6 bg-[#004FC5] text-[#ffffff] text-lg font-bold">
+          Đăng nhập
+        </button>
       </div>
     </header>
   )

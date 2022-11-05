@@ -183,13 +183,86 @@ const HomePage: NextPage = () => {
             Mô hình học tập tương tác trực tuyến hiệu quả đã được khẳng định
             <br /> tại nhiều quốc gia cho kỳ thi THPT Quốc gia
           </p>
-          <div>
-            <div>
-              <img src="" alt="" />
+          <div className="mt-7 h-[600px] flex items-center mx-auto">
+            <div className=" w-[89px] h-[475.5px] flex justify-end relative">
+              <div className="w-[36.5px] h-full border border-[#004FC5] rounded-l-[15px] border-r-0" />
+              <div className="absolute w-[89px] h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-[202px] left-[5.5px] text-xl font-medium text-center">
+                Khóa học
+              </div>
+            </div>
+            <div className=" w-[789px] h-full">
+              <div className="w-[752px] h-[120px] rounded-xl bg-gradient-to-b from-white to-gray-400 flex items-center mx-auto">
+                <div className="h-[99px] w-1/2 flex justify-center items-center font-medium text-xl text-[#060606]">
+                  Giáo viên chính
+                </div>
+                <div className="h-[99px] w-1/2 border-l-[1px] border-[#B6CDF3] flex justify-center items-center font-medium text-xl text-[#060606]">
+                  Giáo viên chủ nhiệm
+                </div>
+              </div>
+
+              <div className="h-[36px] w-[752px] mx-auto flex justify-between">
+                <div className="w-[326px] text-center">
+                  <img src="/double-down.svg" alt="" />
+                </div>
+                <div className="w-[326px] text-center">
+                  <img src="/double-down.svg" alt="" />
+                </div>
+              </div>
+
+              <div className="w-[752px] h-[120px] flex justify-between mx-auto">
+                <div className="w-[326px] h-[120px] bg-gradient-to-b from-white to-gray-400 rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center">
+                  Giáo viên giỏi, nhiều kinh nghiệm giảng dạy ôn thi THPT Quốc gia
+                </div>
+                <div className="w-[326px] h-[120px] bg-gradient-to-b from-white to-gray-400 rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center">
+                  Chủ nhiệm quản lý 30 học sinh
+                </div>
+              </div>
+
+              <div className="h-[36px] w-[752px] mx-auto flex justify-between">
+                <div className="w-[326px] text-center">
+                  <img src="/double-down.svg" alt="" />
+                </div>
+                <div className="w-[326px] text-center">
+                  <img src="/double-down.svg" alt="" />
+                </div>
+              </div>
+
+              <div className="w-[752px] h-[120px] flex justify-between mx-auto">
+                <div className="w-[326px] h-[120px] bg-gradient-to-b from-white to-gray-400 rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center">
+                  Giáo viên giỏi, nhiều kinh nghiệm giảng dạy ôn thi THPT Quốc gia
+                </div>
+                <div className="w-[326px] h-[120px] bg-gradient-to-b from-white to-gray-400 rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center">
+                  Chủ nhiệm quản lý 30 học sinh
+                </div>
+              </div>
+
+              <div className="h-[36px] w-[752px] mx-auto flex justify-between">
+                <div className="w-[326px] text-center">
+                  <img src="/double-down.svg" alt="" />
+                </div>
+                <div className="w-[326px] text-center">
+                  <img src="/double-down.svg" alt="" />
+                </div>
+              </div>
+
+              <div className="w-[752px] h-[120px] flex justify-between mx-auto">
+                <div className="w-[326px] h-[120px] bg-gradient-to-b from-white to-gray-400 rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center">
+                  Giáo viên giỏi, nhiều kinh nghiệm giảng dạy ôn thi THPT Quốc gia
+                </div>
+                <div className="w-[326px] h-[120px] bg-gradient-to-b from-white to-gray-400 rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center">
+                  Chủ nhiệm quản lý 30 học sinh
+                </div>
+              </div>
+            </div>
+            <div className="w-[89px] h-[475.5px] flex justify-start relative">
+              <div className="w-[36.5px] h-full border border-[#004FC5] rounded-r-[15px] border-l-0" />
+              <div className="absolute w-[76px] h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-[202px] left-[-2px] text-xl font-medium text-center">
+                Lớp học
+              </div>
             </div>
           </div>
         </section>
-        <section className="flex flex-col items-center">
+        <section className="flex flex-col items-center mt-10">
           <h2 className="text-[#004FC5] font-medium text-[44px] text-center">Chương trình học</h2>
           <p className="text-2xl font-normal text-[#616364] text-center">
             Các khóa học được xây dựng bám sát mục tiêu học tập của học sinh
@@ -214,23 +287,48 @@ const HomePage: NextPage = () => {
               />
             ))}
           </div>
+          <button className="mt-10 py-[14px] px-6 bg-[#ffffff] border border-[#004FC5] rounded-3xl text-[#004FC5] text-lg font-bold">
+            Xem tất cả các khóa học
+          </button>
         </section>
-        <section className="flex flex-col items-center">
+        <section className="flex flex-col items-center mt-[60px]">
           <h2 className="text-[#004FC5] font-medium text-[44px] text-center">Học sinh ưu tú</h2>
-          <p className="text-2xl font-normal text-[#616364] text-center">80% học sinh đạt 8+, 65% học sinh đạt 9+</p>
+          <p className="text-2xl font-normal text-[#616364] text-center">
+            <span className="text-[#004FC5]">80%</span> học sinh đạt{' '}
+            <span className="text-[#EC2E2E] text-[28px] font-bold">8+</span>,{' '}
+            <span className="text-[#004FC5]">65%</span> học sinh đạt{' '}
+            <span className="text-[#EC2E2E] text-[28px] font-bold">9+</span>
+          </p>
           <div>
             <div>
               <img src="" alt="" />
             </div>
           </div>
         </section>
-        <section className="flex flex-col items-center">
-          <h2 className="text-[#004FC5] font-medium text-[44px] text-center">Đăng ký học Edupia Class</h2>
-          <p className="text-2xl font-normal text-[#616364] text-center">80% học sinh đạt 8+, 65% học sinh đạt 9+</p>
-          <div>
-            <div>
-              <img src="" alt="" />
+        <section className="pl-[115px] pr-[116px]">
+          <div className="flex flex-col justify-between items-center bg-[#F5F8FE] h-[414px] pt-[43px] pb-[38px] ">
+            <h2 className="text-[#004FC5] font-medium text-[44px] text-center">Đăng ký học Edupia Class</h2>
+            <div className="h-[136px] grid grid-cols-2 gap-x-7 gap-y-4">
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
+                <div>Họ và tên</div>
+                <input type="text" placeholder="Nguyen Duy Tung" />
+              </div>
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
+                <div>Họ và tên</div>
+                <input type="text" placeholder="Nguyen Duy Tung" />
+              </div>
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
+                <div>Họ và tên</div>
+                <input type="text" placeholder="Nguyen Duy Tung" />
+              </div>
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
+                <div>Họ và tên</div>
+                <input type="text" placeholder="Nguyen Duy Tung" />
+              </div>
             </div>
+            <button className="bg-[#004FC5] py-4 px-[84px] rounded-[69px] text-[#ffffff] text-xl font-bold">
+              Đăng ký khóa học
+            </button>
           </div>
         </section>
       </div>

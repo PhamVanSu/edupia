@@ -17,12 +17,12 @@ const Menu: React.FC<MenuProps> = ({ content }) => {
     const newContent = contentMenu.map((item, indexItem) => ({ ...item, active: indexActive === indexItem }))
     setContentMenu(newContent)
   }
-
   return (
     <ul className="menu">
-      {content.map(({ label, active, path = '/' }, index) => (
+      {contentMenu.map(({ label, active, path = '/' }, index) => (
         <li key={index} className={cn('menu-item', active && 'menu-item-active')} onClick={() => setActive(index)}>
           <Link href={path}>{label}</Link>
+          {active && <div className="w-1 h-1 rounded-full bg-[#004FC5]" />}
         </li>
       ))}
     </ul>
