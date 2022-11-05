@@ -55,7 +55,6 @@ const Footer: React.FC = () => {
             <Image src="/linkedin.svg" width={16} height={16} alt="" />
             <Image src="/instagram.svg" width={16} height={16} alt="" />
           </div>
-          {/* TODO: Icon */}
         </div>
       </div>
     </footer>

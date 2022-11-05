@@ -31,17 +31,17 @@ const contentMenu = [
 const Header: React.FC = () => {
   return (
     <header className="fixed inset-x-0 top-0 block z-50 bg-[#ffffff]">
-      <div className="container flex items-center justify-between mx-auto pt-[29px] pb-[24px]">
-        <a href="#" className="w-1/6">
+      <div className="flex items-center justify-between mx-auto pt-[24px] pb-[25px] pl-[150px] pr-[160px] container">
+        <a href="#" className="">
           <h1 className="home-link">
             <span className="text-[#004FC5]">Edupia</span>Class
           </h1>
         </a>
-        <div className="w-4/6">
+        <div className="">
           <Menu content={contentMenu} />
         </div>
 
-        <div className="w-1/6 flex justify-end">
+        <div className="">
           <button className="rounded-3xl w-[143px] h-[49px] py-3 px-6 bg-[#004FC5] text-[#ffffff] text-lg font-bold">
             Đăng nhập
           </button>

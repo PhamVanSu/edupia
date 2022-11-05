@@ -29,12 +29,19 @@ img {
   display: initial;
 }
 
+.body {
+  @apply mt-[102px];
+}
+
 .home-link {
   @apply font-normal text-[32px];
 }
 
 .menu {
-  @apply flex flex-wrap items-center justify-between;
+  @apply flex items-center justify-between w-[633px];
+}
+
+.menu-item {
 }
 
 .nav-link {
