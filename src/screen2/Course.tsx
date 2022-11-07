@@ -1,29 +1,60 @@
-import { FC } from 'react'
+import Image from 'next/image'
+import { FC, useState } from 'react'
 import ProgressItem from './ProgressItem'
 
 const Course: FC = () => {
+  const [a1, setA1] = useState<boolean>(true)
+  const [a2, setA2] = useState<boolean>(false)
+  const [a3, setA3] = useState<boolean>(false)
+  const [a4, setA4] = useState<boolean>(false)
+  const handleActive = (a: string) => {
+    if (a === 'a1') {
+      setA1(true)
+      setA2(false)
+      setA3(false)
+      setA4(false)
+    }
+    if (a === 'a2') {
+      setA1(false)
+      setA2(true)
+      setA3(false)
+      setA4(false)
+    }
+    if (a === 'a3') {
+      setA1(false)
+      setA2(false)
+      setA3(true)
+      setA4(false)
+    }
+    if (a === 'a4') {
+      setA1(false)
+      setA2(false)
+      setA3(false)
+      setA4(true)
+    }
+  }
   return (
     <div className="col-span-2">
       {/* tabs */}
       <div className="w-full">
         <ul className="flex border-b border-[#EBF0F4]">
-          <li>
-            <a className="tabBtn tabBtn-active" href="#introduce">
+          <li onClick={() => handleActive('a1')}>
+            <a className={`tabBtn ${a1 ? 'tabBtn-active' : ''}`} href="#introduce">
               Giới thiệu
             </a>
           </li>
-          <li>
-            <a className="tabBtn" href="#progress">
+          <li onClick={() => handleActive('a2')}>
+            <a className={`tabBtn ${a2 ? 'tabBtn-active' : ''}`} href="#progress">
               Lộ trình học tập
             </a>
           </li>
-          <li>
-            <a className="tabBtn" href="#teacher">
+          <li onClick={() => handleActive('a3')}>
+            <a className={`tabBtn ${a3 ? 'tabBtn-active' : ''}`} href="#teacher">
               Giáo viên
             </a>
           </li>
-          <li>
-            <a className="tabBtn" href="#rating">
+          <li onClick={() => handleActive('a4')}>
+            <a className={`tabBtn ${a4 ? 'tabBtn-active' : ''}`} href="#rating">
               Đánh giá
             </a>
           </li>
@@ -57,7 +88,28 @@ const Course: FC = () => {
             <ProgressItem />
           </div>
         </div>
-        <div id="teacher">giáo viên</div>
+        <div id="teacher" className="mt-8">
+          <h1 className="font-bold text-2xl text-[#060606] mb-4">Giáo viên</h1>
+          <div className="flex items-center">
+            <div>
+              <Image
+                alt="avatar-teacher"
+                width={240}
+                height={240}
+                src="/screen2/avatar1.png"
+                className="rounded-full"
+              />
+            </div>
+            <div className="ml-4">
+              <h2 className="font-normal text-2xl text-[#060606]">Thầy Trần Quang Đồng</h2>
+              <p className="font-normal text-base text-[#060606] mt-4">
+                Hello there! Ed here and welcome to the new tutorial. I am a subscriber of @Pencilmation and I laugh and
+                enjoy their animation. I thought of making a tutorial just like theirs, and here it is! I have another
+                video on the works and{' '}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
