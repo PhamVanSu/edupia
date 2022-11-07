@@ -22,7 +22,7 @@ const Menu: React.FC<MenuProps> = ({ content }) => {
       {contentMenu.map(({ label, active, path = '/' }, index) => (
         <li key={index} className={cn('menu-item', active && 'menu-item-active')} onClick={() => setActive(index)}>
           <Link href={path}>{label}</Link>
-          {active && <div className="w-1 h-1 rounded-full bg-[#004FC5]" />}
+          <div className={`w-1 h-1 rounded-full ${active && 'bg-[#004FC5]'}`} />
         </li>
       ))}
     </ul>

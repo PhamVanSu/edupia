@@ -1,6 +1,8 @@
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import Class from '../src/class/Class'
+import Excellent from '../src/excellent/Excellent'
 import Footer from '../src/footer/Footer'
 import Header from '../src/header/Header'
 import Service from '../src/service/Service'
@@ -105,12 +107,12 @@ const HomePage: NextPage = () => {
       <div className="body container mx-auto">
         <section className="hero h-[658px] flex relative">
           <div className="w-[960px] h-full bg-[#F5F8FE]">
-            <div className="mt-[109px] ml-[150px]">
-              <h2 className="text-[58px] text-[#1C3965]">
+            <div className="mt-[109px] ml-[150px] leading-[1.2]">
+              <h2 className="text-[58px] text-[#1C3965] ">
                 <span className="text-[#004FC5]">Edupia</span>Class <br /> Lớp học trực tuyến <br />
                 <span className="text-[#004FC5]">chất lượng cao</span>
               </h2>
-              <p className="text-[#616364] text-2xl font-normal">
+              <p className="text-[#616364] text-2xl font-normal mt-[18px]">
                 Lớp học dual teacher chất lượng cao đầu tiên tại
                 <br /> Việt Nam
               </p>
@@ -186,7 +188,7 @@ const HomePage: NextPage = () => {
           <div className="mt-7 h-[600px] flex items-center mx-auto">
             <div className=" w-[89px] h-[475.5px] flex justify-end relative">
               <div className="w-[36.5px] h-full border border-[#004FC5] rounded-l-[15px] border-r-0" />
-              <div className="absolute w-[89px] h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-[202px] left-[5.5px] text-xl font-medium text-center">
+              <div className="absolute w-[89px] h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-1/2 translate-y-[-50%] left-[5.5px] text-xl font-medium text-center">
                 Khóa học
               </div>
             </div>
@@ -256,7 +258,7 @@ const HomePage: NextPage = () => {
             </div>
             <div className="w-[89px] h-[475.5px] flex justify-start relative">
               <div className="w-[36.5px] h-full border border-[#004FC5] rounded-r-[15px] border-l-0" />
-              <div className="absolute w-[76px] h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-[202px] left-[-2px] text-xl font-medium text-center">
+              <div className="absolute w-[76px] h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-1/2 translate-y-[-50%] left-[-2px] text-xl font-medium text-center">
                 Lớp học
               </div>
             </div>
@@ -291,7 +293,7 @@ const HomePage: NextPage = () => {
             Xem tất cả các khóa học
           </button>
         </section>
-        <section className="flex flex-col items-center mt-[60px]">
+        <section className="flex flex-col items-center mt-[60px] relative h-[526px]">
           <h2 className="text-[#004FC5] font-medium text-[44px] text-center">Học sinh ưu tú</h2>
           <p className="text-2xl font-normal text-[#616364] text-center">
             <span className="text-[#004FC5]">80%</span> học sinh đạt{' '}
@@ -299,31 +301,90 @@ const HomePage: NextPage = () => {
             <span className="text-[#004FC5]">65%</span> học sinh đạt{' '}
             <span className="text-[#EC2E2E] text-[28px] font-bold">9+</span>
           </p>
-          <div>
-            <div>
-              <img src="" alt="" />
-            </div>
+          <div
+            style={{
+              backgroundImage: `url("/bg3.svg")`,
+            }}
+            className="w-[776px] h-[149px] absolute top-[90px] z-10"
+          />
+          <div className="mt-11 flex z-20  overflow-hidden">
+            <Excellent
+              urlImage="/excellent.svg"
+              name="Nguyễn Duy Tùng"
+              school="THPT Lê Quý Đôn"
+              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+              title="Thật sự tuyệt vời!!"
+              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+            />
+            <Excellent
+              urlImage="/excellent.svg"
+              name="Nguyễn Duy Tùng"
+              school="THPT Lê Quý Đôn"
+              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+              title="Thật sự tuyệt vời!!"
+              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+            />
+            <Excellent
+              urlImage="/excellent.svg"
+              name="Nguyễn Duy Tùng"
+              school="THPT Lê Quý Đôn"
+              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+              title="Thật sự tuyệt vời!!"
+              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+            />
+          </div>
+          <div className="w-full h-[151px] flex justify-center items-center">
+            <button className="w-[47px] h-[47px] rounded-full border flex justify-center items-center border-[#004FC5] mr-[10px]">
+              <ChevronLeftIcon className="w-[21px] text-[#004FC5]" />
+            </button>
+            <button className="w-[47px] h-[47px] rounded-full border flex justify-center items-center border-[#004FC5]">
+              <ChevronRightIcon className="w-[18px] text-[#004FC5]" />
+            </button>
           </div>
         </section>
         <section className="pl-[115px] pr-[116px]">
           <div className="flex flex-col justify-between items-center bg-[#F5F8FE] h-[414px] pt-[43px] pb-[38px] ">
             <h2 className="text-[#004FC5] font-medium text-[44px] text-center">Đăng ký học Edupia Class</h2>
             <div className="h-[136px] grid grid-cols-2 gap-x-7 gap-y-4">
-              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
-                <div>Họ và tên</div>
-                <input type="text" placeholder="Nguyen Duy Tung" />
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF] pt-[10px] pb-[5px] px-4">
+                <div className="text-xs">Họ và tên</div>
+                <input type="text" placeholder="Nguyen Duy Tung" className="w-full h-[26px] outline-0" />
               </div>
-              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
-                <div>Họ và tên</div>
-                <input type="text" placeholder="Nguyen Duy Tung" />
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF] pt-[10px] pb-[5px] px-4">
+                <div className="text-xs">Lớp</div>
+                <select
+                  name="class"
+                  id="class"
+                  className="w-full h-[26px] bg-[url('/polygonDown.svg')] bg-no-repeat  outline-0 appearance-none bg-[100%_center] bg-[length:16px_16px]"
+                >
+                  <option value="10">Lớp 10</option>
+                  <option value="11">Lớp 11</option>
+                  <option value="12">Lớp 12</option>
+                </select>
               </div>
-              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
-                <div>Họ và tên</div>
-                <input type="text" placeholder="Nguyen Duy Tung" />
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF] pt-[10px] pb-[5px] px-4">
+                <div className="text-xs">Môn học</div>
+                <select
+                  name="class"
+                  id="class"
+                  className="w-full h-[26px] bg-[url('/polygonDown.svg')] bg-no-repeat  outline-0 appearance-none bg-[100%_center] bg-[length:16px_16px]"
+                >
+                  <option value="toan">Môn Toán</option>
+                  <option value="ly">Môn Lý</option>
+                  <option value="hoa">Môn Hóa</option>
+                </select>
               </div>
-              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF]">
-                <div>Họ và tên</div>
-                <input type="text" placeholder="Nguyen Duy Tung" />
+              <div className="w-[311px] h-[60px] rounded-lg border border-[#EFEFEF] pt-[10px] pb-[5px] px-4">
+                <div className="text-xs">Khóa đăng ký</div>
+                <select
+                  name="class"
+                  id="class"
+                  className="w-full h-[26px] bg-[url('/polygonDown.svg')] bg-no-repeat  outline-0 appearance-none bg-[100%_center] bg-[length:16px_16px]"
+                >
+                  <option value="abc">Khóa ABC</option>
+                  <option value="def">Khóa DEF</option>
+                  <option value="ght">Khóa GHT</option>
+                </select>
               </div>
             </div>
             <button className="bg-[#004FC5] py-4 px-[84px] rounded-[69px] text-[#ffffff] text-xl font-bold">
