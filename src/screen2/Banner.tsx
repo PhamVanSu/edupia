@@ -27,7 +27,7 @@ const Banner: FC = () => {
             <h1 className="font-medium text-2xl color-[#1C1D1F] mt-4">Luyện thi THPT Quốc gia 2023</h1>
             {/* rate */}
             <div className="flex mt-1 mb-3 items-center space-x-1">
-              <RatingStar rating={4.5} />
+              <RatingStar rating={4.5} size={16} />
               <span>4.5</span>
               <a href="#">(Xem 231 bài đánh giá)</a>
             </div>

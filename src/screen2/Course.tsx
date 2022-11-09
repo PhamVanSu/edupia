@@ -3,6 +3,7 @@ import { FC, useState } from 'react'
 import ProgressItem from './ProgressItem'
 
 const Course: FC = () => {
+  const [isExpand, setIsExpand] = useState(false)
   const [a1, setA1] = useState<boolean>(true)
   const [a2, setA2] = useState<boolean>(false)
   const [a3, setA3] = useState<boolean>(false)
@@ -64,14 +65,27 @@ const Course: FC = () => {
       <div>
         <div id="introduce">
           <h1 className="heading-3 my-7">Giới thiệu</h1>
-          <p className="text-ellipsis text-justify leading-6 font-normal text-base">
+          <span
+            style={
+              isExpand
+                ? {}
+                : {
+                    overflow: 'hidden',
+                    display: '-webkit-box',
+                    WebkitLineClamp: 3,
+                    WebkitBoxOrient: 'vertical',
+                    textOverflow: 'ellipsis',
+                  }
+            }
+            className="leading-6 font-normal text-base"
+          >
             Hello there! Ed here and welcome to the new tutorial. I am a subscriber of @Pencilmation and I laugh and
             enjoy their animation. I thought of making a tutorial just like theirs, and here it is! I have another video
             on the works and hopefully be done on or before Christmas.ve been pushing myself to finish it, but for
             safety, I made this. I hope you guys are doing great and for the upcoming new year. Cheers! -ed
-            <a href="" className="text-[#004FC5] ml-1">
-              Xem thêm....
-            </a>
+          </span>
+          <p className="cursor-pointer text-[#004FC5] ml-1" onClick={() => setIsExpand(!isExpand)}>
+            {isExpand ? 'Ẩn bớt' : 'Xem thêm'}
           </p>
         </div>
         <div id="progress">
@@ -105,7 +119,7 @@ const Course: FC = () => {
               <p className="font-normal text-base text-[#060606] mt-4">
                 Hello there! Ed here and welcome to the new tutorial. I am a subscriber of @Pencilmation and I laugh and
                 enjoy their animation. I thought of making a tutorial just like theirs, and here it is! I have another
-                video on the works and{' '}
+                video on the works and
               </p>
             </div>
           </div>
