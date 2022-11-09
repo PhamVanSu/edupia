@@ -1,0 +1,169 @@
+/* services */
+.services {
+  @apply py-[60.5px] pl-[147.5px] pr-[148.5px] flex justify-between;
+}
+
+.service {
+  @apply w-[269px] h-[228px] px-[14.5px] py-8 border;
+}
+.service .title {
+  @apply mt-6 mb-1;
+}
+
+/* hero */
+.hero {
+  @apply h-[658px] flex relative;
+}
+
+.hero .title {
+  @apply text-[58px] text-[#1C3965] leading-[1.2];
+}
+
+.hero .description {
+  @apply text-[#616364] text-2xl font-normal mt-[18px];
+}
+
+.hero .register-button {
+  @apply px-[84px] py-4 rounded-[69px] bg-[#004FC5] text-[#ffffff] font-bold text-[20px] mt-[30px];
+}
+
+.hero .star {
+  @apply w-[9px] h-[9px] text-[#FFC700];
+}
+
+/* chart */
+.chart {
+  @apply flex flex-col items-center mt-[60.5px];
+}
+
+.chart .title {
+  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2] text-center;
+}
+
+.chart .description {
+  @apply text-2xl font-normal text-[#616364] text-center;
+}
+
+.chart .row {
+  @apply w-[752px] h-[120px] flex justify-between mx-auto;
+}
+
+.rectangle {
+  @apply w-[326px] h-[120px] bg-gradient-to-b from-white to-[#DAE6FF] rounded-[12px] flex justify-center items-center font-medium text-xl text-[#060606] text-center;
+}
+
+.arrow {
+  @apply h-[36px] w-[752px] mx-auto flex justify-between;
+}
+
+.chart .chart-area {
+  @apply mt-7 h-[600px] flex items-center mx-auto;
+}
+
+.chart .left {
+  @apply w-[89px] h-[475.5px] flex justify-end relative;
+}
+
+.chart .left {
+  @apply w-[89px] h-[475.5px] flex justify-end relative;
+}
+
+.chart .center {
+  @apply w-[789px] h-full;
+}
+
+.chart .right {
+  @apply w-[89px] h-[475.5px] flex justify-start relative;
+}
+
+.chart .line {
+  @apply w-[36.5px] h-full border border-[#004FC5];
+}
+
+.chart .rectangular-border {
+  @apply absolute h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-1/2 translate-y-[-50%] text-xl font-medium text-center;
+}
+
+/* classes */
+.classes {
+  @apply flex flex-col items-center mt-10;
+}
+.classes .title {
+  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2] text-center;
+}
+.classes .description {
+  @apply text-2xl font-normal text-[#616364] text-center;
+}
+.classes .button {
+  @apply rounded-3xl py-2 px-4 text-base;
+}
+
+.classes .class-area {
+  @apply grid grid-cols-3 gap-6;
+}
+
+.classes .expand-button {
+  @apply mt-10 py-[14px] px-6 bg-[#ffffff] border border-[#004FC5] rounded-3xl text-[#004FC5] text-lg font-bold;
+}
+
+.class {
+  @apply w-[364px] h-[457px] border border-[#D8DDE0] rounded-[15px];
+}
+
+.class .star {
+  @apply w-[13px] h-[13px] text-[#FFC700];
+}
+
+.class .teacher-name {
+  @apply text-sm font-medium text-[#616364];
+}
+
+.class .reviews {
+  @apply text-xs font-medium text-[#747678];
+}
+
+.class .register-button {
+  @apply py-[6px] px-6 rounded-3xl border border-[#004FC5] bg-[#004FC5] text-[#ffffff] font-semibold text-sm;
+}
+
+/* Teachers */
+.teachers {
+  @apply h-[654px] bg-[#F0F5FF] flex flex-col items-center py-10;
+}
+.teachers .title {
+  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2];
+}
+
+.teacher .description {
+  @apply text-2xl font-normal text-[#616364];
+}
+
+.teacher-information {
+  @apply w-[416px] h-[437px] flex flex-col items-center;
+}
+
+/* Utilities */
+
+.utilities {
+  @apply flex flex-col items-center mt-[88.5px] relative;
+}
+
+.utilities .title {
+  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2];
+}
+
+.utilities .description {
+  @apply text-2xl font-normal text-[#616364];
+}
+
+.utilities .utility-area {
+  @apply flex w-[776px] justify-between;
+}
+
+.utilities .background {
+  @apply w-[1195px] h-[248px] absolute top-[185px] right-[98px] z-10 bg-gradient-to-b from-white to-[#DAE6FF];
+}
+
+.utility {
+  @apply px-3 py-8 w-[176px] h-[244px] text-center border-[0.5px] border-[#E6EDF9] rounded-xl bg-[#ffffff];
+}

@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import './sections.css';
 
 blockquote,
 dl,
@@ -18,6 +19,19 @@ pre {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
 ol,
 ul {
   list-style: none;
@@ -29,22 +43,85 @@ img {
   display: initial;
 }
 
-.body {
-  @apply mt-[102px];
+/* Header */
+.header {
+  @apply fixed inset-x-0 top-0 block z-50 bg-[#ffffff];
 }
 
-.home-link {
-  @apply font-normal text-[32px];
+.header .home-link {
+  @apply font-normal text-[32px] cursor-pointer;
 }
+
+.header .navbar {
+  @apply flex items-center justify-between mx-auto pt-[24px] pb-[25px] pl-[150px] pr-[160px] container;
+}
+
+.header .login-button {
+  @apply rounded-3xl w-[143px] h-[49px] py-3 px-6 bg-[#004FC5] text-[#ffffff] text-lg font-bold;
+}
+
+/* Menu */
 
 .menu {
   @apply flex items-center justify-between w-[633px];
 }
 
-.menu-item {
+.menu .menu-item {
   @apply font-medium text-base text-[#616364] flex flex-col justify-center items-center;
 }
 
-.menu-item-active {
+.menu .active {
   @apply text-[#004FC5];
+}
+
+.menu .dot {
+  @apply w-1 h-1 rounded-full;
+}
+
+/* Body */
+
+.body {
+  @apply mt-[102px] container mx-auto;
+}
+
+/* Footer */
+
+.footer {
+  @apply bg-[#00378A] h-[375px] w-full text-[#ffffff] flex justify-center;
+}
+
+.footer .footer-container {
+  @apply container flex pt-[43px] pb-[37.5px] pl-[153px] pr-[126px];
+}
+
+.footer .col-1 {
+  @apply w-1/3 flex flex-col justify-between;
+}
+
+.footer .col-1 .logo {
+  @apply text-[32px] font-bold my-[9.5px];
+}
+
+.footer .col-1 .information {
+  @apply font-medium text-sm leading-[1.6];
+}
+
+.footer .col-2 {
+  @apply w-1/2 font-medium text-sm leading-[1.6];
+}
+
+.footer .col-2 button {
+  @apply bg-[#F5F8FE] rounded-[30px] text-[#00378A] px-4 py-1 text-[14px] font-normal leading-[18px];
+}
+
+.footer .col-3 {
+  @apply w-1/6 flex justify-between flex-col;
+}
+
+.footer .col-3 .introduce {
+  @apply mt-[9.5px] mb-[25px] font-bold text-lg;
+}
+
+.footer .col-3 .social-media {
+  @apply flex justify-between w-[176px] px-3;
 }
