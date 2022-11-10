@@ -4,7 +4,7 @@ interface RegisterTheCourseProps {}
 
 const RegisterTheCourse: React.FC<RegisterTheCourseProps> = () => {
   return (
-    <section className="pl-[115px] pr-[116px]">
+    <section className="pl-[115px] pr-[116px] mb-[89px]">
       <div className="flex flex-col justify-between items-center bg-[#F5F8FE] h-[414px] pt-[43px] pb-[38px] bg-[url('/FAQ.svg')]">
         <h2 className="text-[#1C3965] font-medium text-[44px] leading-[1.2] text-center ">Đăng ký học Edupia Class</h2>
         <div className="h-[136px] grid grid-cols-2 gap-x-7 gap-y-4">

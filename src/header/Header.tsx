@@ -1,9 +1,40 @@
 import React from 'react'
 import Menu from '../menu/Menu'
-import { contentMenu } from '../constants/data'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const Header: React.FC = () => {
+  const router = useRouter()
+  const [path] = router.asPath.split('/')
+
+  const contentMenu = [
+    {
+      label: 'Trang chủ',
+      active: path === '/',
+      path: '/',
+    },
+    {
+      label: 'Giới thiệu',
+      active: path === '/about',
+      path: '/about',
+    },
+    {
+      label: 'Khóa học',
+      active: false,
+    },
+    {
+      label: 'Thư viện',
+      active: false,
+    },
+    {
+      label: 'Phòng thi',
+      active: false,
+    },
+    {
+      label: 'Bảng vàng',
+      active: false,
+    },
+  ]
   return (
     <header className="header">
       <div className="navbar">

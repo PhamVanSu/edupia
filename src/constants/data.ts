@@ -1,32 +1,3 @@
-export const contentMenu = [
-  {
-    label: 'Trang chủ',
-    active: true,
-    path: '/',
-  },
-  {
-    label: 'Giới thiệu',
-    active: false,
-    path: '/about',
-  },
-  {
-    label: 'Khóa học',
-    active: false,
-  },
-  {
-    label: 'Thư viện',
-    active: false,
-  },
-  {
-    label: 'Phòng thi',
-    active: false,
-  },
-  {
-    label: 'Bảng vàng',
-    active: false,
-  },
-]
-
 export const serviceData = [
   {
     urlImage: '/THPT.svg',
