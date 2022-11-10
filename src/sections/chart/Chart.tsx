@@ -17,7 +17,7 @@ const Chart: React.FC<ChartProps> = () => {
 
       <div className="chart-area">
         <div className="left">
-          <div className="line rounded-l-[15px] border-r-0" />
+          <div className="line line-left" />
           <div className="rectangular-border left-[5.5px]">Khóa học</div>
         </div>
         <div className="center">
@@ -47,7 +47,7 @@ const Chart: React.FC<ChartProps> = () => {
           </div>
         </div>
         <div className="right">
-          <div className="line rounded-r-[15px] border-l-0" />
+          <div className="line line-right" />
           <div className="rectangular-border left-[-2px]">Lớp học</div>
         </div>
       </div>

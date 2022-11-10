@@ -80,6 +80,14 @@
   @apply w-[36.5px] h-full border border-[#004FC5];
 }
 
+.chart .line-left {
+  @apply rounded-l-[15px] border-r-0;
+}
+
+.chart .line-right {
+  @apply rounded-r-[15px] border-l-0;
+}
+
 .chart .rectangular-border {
   @apply absolute h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-1/2 translate-y-[-50%] text-xl font-medium text-center;
 }

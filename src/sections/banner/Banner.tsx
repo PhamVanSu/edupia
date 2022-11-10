@@ -3,7 +3,7 @@ import RatingStar from '../content/ratingSection/RatingStar'
 
 const Banner: FC = () => {
   return (
-    <section className="w-full max-h-[480px] mt-[102px]">
+    <section className="w-full max-h-[480px]">
       <div className="w-full h-[480px] grid grid-cols-3 relative">
         <div className="col-span-1"></div>
         <div className="col-span-2 bg-[#F5F8FE] z-30"></div>
@@ -33,17 +33,11 @@ const Banner: FC = () => {
             {/* teacher */}
             <div>
               <ul className="flex items-center">
-                <li className="color-[#060606] text-xl font-normal leading-[140%]">
-                  <p>Giáo viên Trần Quang Đồng</p>
-                </li>
+                <li className="color-[#060606] text-xl font-normal leading-[140%]">Giáo viên Trần Quang Đồng</li>
                 <div className="w-[6px] h-[6px] rounded-full bg-[#424344] mx-3"></div>
-                <li className="color-[#424344] font-normal text-base flex leading-[140%]">
-                  <p>Thứ 4 & Thứ 7</p>
-                </li>
+                <li className="color-[#424344] font-normal text-base flex leading-[140%]">Thứ 4 & Thứ 7</li>
                 <div className="w-[6px] h-[6px] rounded-full bg-[#424344] mx-3"></div>
-                <li className="color-[#424344] font-normal text-base leading-[140%]">
-                  <p>90 phút/buổi</p>
-                </li>
+                <li className="color-[#424344] font-normal text-base leading-[140%]">90 phút/buổi</li>
               </ul>
             </div>
             {/* price */}

@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="col-1">
           <div>
             <h3 className="logo">Edupia Class</h3>
-            <p className="information">
+            <div className="information">
               Công ty cổ phần giáo dục Educa Corporation <br />
               <ul className="list-disc ml-7">
                 <li>MST: 0108156933 do Sở KH và ĐT</li>
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <ul className="list-disc ml-7">
                 <li>Đại diện: Ông Trần Đức Hùng</li>
               </ul>
-            </p>
+            </div>
           </div>
           <div>
             <Image src="/RegisterWebTmdt.svg" width={147} height={55} alt="register web" />

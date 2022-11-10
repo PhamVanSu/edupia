@@ -128,24 +128,22 @@ img {
 
 @layer components {
   .tabBtn {
-    @apply font-normal text-base text-[#747678] px-6 pb-2 block
+    @apply font-normal text-base text-[#747678] px-6 pb-2 block;
   }
 
   .tabBtn-active {
-    @apply font-bold text-base text-[#004FC5] border-b-2 border-[#004FC5]
+    @apply font-bold text-base text-[#004FC5] border-b-2 border-[#004FC5];
   }
 
-        
   .heading-3 {
-    @apply font-bold text-2xl text-[#060606]
+    @apply font-bold text-2xl text-[#060606];
   }
 
   .heading-4 {
-    @apply font-bold text-lg text-[#000000]
+    @apply font-bold text-lg text-[#000000];
   }
 
   .ratingBtn-active {
-    @apply  border-b-2 text-[#004FC5] border-[#004FC5]
+    @apply border-b-2 text-[#004FC5] border-[#004FC5];
   }
-
 }
