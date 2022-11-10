@@ -9,12 +9,12 @@ const ProgressItem: FC<ProgressItemProps> = () => {
     setToggle(!toggle)
   }
   return (
-    <div className="mb-2 px-5 py-4 border border-[#E0E0E0]" onClick={handleToggle}>
+    <div className="chapter-wrapper" onClick={handleToggle}>
       {/* title */}
-      <div className="flex justify-between cursor-pointer">
+      <div className="title-wrapper">
         <div className="flex gap-4">
           <div>
-            {toggle ? (
+            {!toggle ? (
               <Image alt="icon" width={19} height={19} src="/arrow-down.png" />
             ) : (
               <Image alt="icon" width={19} height={19} src="/arrow-up.png" />
@@ -27,11 +27,11 @@ const ProgressItem: FC<ProgressItemProps> = () => {
         </div>
       </div>
       {/* content */}
-      <div className={`p-3 border-t-[1.2px] border-[#F6F6F6] mt-4 ${toggle ? 'block' : 'hidden'}`}>
+      <div className={`content-wrapper ${toggle ? 'block' : 'hidden'}`}>
         {/*start item */}
-        <div className="flex justify-between items-center mb-9 mt-3">
+        <div className="content-item-wrapper">
           {/* left */}
-          <div className="flex items-center pl-5 pr-2  gap-5">
+          <div className="flex items-center pl-5 pr-2 gap-5">
             <div>
               <Image alt="play" width={21} height={21} src="/play.png" />
             </div>
@@ -44,18 +44,14 @@ const ProgressItem: FC<ProgressItemProps> = () => {
           </div>
           {/* right */}
           <div>
-            <button className="font-normal text-base text-[#060606] px-4 py-1 border border-[#060606] rounded-full">
-              Tài liệu
-            </button>
-            <button className="font-normal text-base text-[#F0F0F0] px-4 py-1 bg-[#004FC5] rounded-full ml-2 w-[96px]">
-              Xem lại
-            </button>
+            <button className="content-document-button">Tài liệu</button>
+            <button className="content-button-blue">Xem lại</button>
           </div>
         </div>
         {/*end item */}
 
         {/*start item */}
-        <div className="flex justify-between items-center">
+        <div className="content-item-wrapper">
           {/* left */}
           <div className="flex items-center pl-5 pr-2  gap-5">
             <div>
@@ -72,12 +68,8 @@ const ProgressItem: FC<ProgressItemProps> = () => {
           </div>
           {/* right */}
           <div>
-            <button className="font-normal text-base text-[#060606] px-4 py-1 border border-[#060606] rounded-full">
-              Tài liệu
-            </button>
-            <button className="font-normal text-base text-[#F0F0F0] px-4 py-1 bg-[#EC2E2E] rounded-full ml-2 w-[96px]">
-              29:11
-            </button>
+            <button className="content-document-button">Tài liệu</button>
+            <button className="content-button-red">29:11</button>
           </div>
         </div>
         {/*end item */}

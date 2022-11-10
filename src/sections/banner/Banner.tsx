@@ -6,16 +6,14 @@ const Banner: FC = () => {
     <section className="banner">
       <div className="col-span-1"></div>
       <div className="col-span-2 bg-[#F5F8FE] z-30"></div>
-      <div className="flex items-center justify-center max-w-[1140px] h-[410px] mx-auto absolute z-40 inset-x-0 top-[35px] bg-[#FFFFFF] rounded shadow-[0px_0px_8px_0px_rgba(0,0,0,0.05)]">
-        <div className="flex justify-center items-center w-[474px] h-[315px] bg-[url('/thumbnail.png')] bg-[#9A9DA0]">
+      <div className="banner-content-wrapper">
+        <div className="banner banner-image">
           <div className="ml-16">
             <h2 className="font-bold text-[24px] mb-6 leading-[29px]">
               Chinh phục được <br />
               điểm 9+
             </h2>
-            <span className="text-[#FFFFFF] text-[16px] px-[25px] py-[7.5px] bg-[#3350FE] font-[500] rounded-3xl">
-              Toán học
-            </span>
+            <span className="banner-image-button">Toán học</span>
           </div>
         </div>
         <div className="h-[315px] w-1/2 ml-11">
@@ -32,11 +30,11 @@ const Banner: FC = () => {
           {/* teacher */}
           <div>
             <ul className="flex items-center">
-              <li className="color-[#060606] text-xl font-normal leading-[140%]">Giáo viên Trần Quang Đồng</li>
-              <div className="w-[6px] h-[6px] rounded-full bg-[#424344] mx-3"></div>
-              <li className="color-[#424344] font-normal text-base flex leading-[140%]">Thứ 4 & Thứ 7</li>
-              <div className="w-[6px] h-[6px] rounded-full bg-[#424344] mx-3"></div>
-              <li className="color-[#424344] font-normal text-base leading-[140%]">90 phút/buổi</li>
+              <li className="color-[#060606] text-xl font-normal">Giáo viên Trần Quang Đồng</li>
+              <div className="banner dot"></div>
+              <li className="color-[#424344] font-normal text-base">Thứ 4 & Thứ 7</li>
+              <div className="banner dot"></div>
+              <li className="color-[#424344] font-normal text-base">90 phút/buổi</li>
             </ul>
           </div>
           {/* price */}
@@ -47,15 +45,13 @@ const Banner: FC = () => {
             <div>
               <del className="font-normal text-xl text-[#747678] ml-2">4.000.000đ</del>
             </div>
-            <div className="flex justify-center items-center w-[50px] h-[50px] bg-[url('/star7.png')] bg-contain bg-no-repeat ml-3">
+            <div className="banner wrapper-discount">
               <span className="text-[#FFFFFF] font-bold text-xs -rotate-12">-50%</span>
             </div>
           </div>
           <div className="flex flex-col">
             <div>
-              <button className="px-[110px] py-[14px] bg-[#004FC5] text-[#FFFFFF] font-bold text-lg rounded-full">
-                Đăng ký học ngay
-              </button>
+              <button className="register-button">Đăng ký học ngay</button>
             </div>
             <div className="mt-3 ml-[17%]">
               <b>Hotline: 0912.456.789</b>
