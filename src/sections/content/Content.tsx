@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import Course from './Course'
-import RatingSection from './RatingSection'
+import Course from './course/Course'
+import RatingSection from './ratingSection/RatingSection'
 import RelatedCourses from './RelatedCourses'
 
 const Content: FC = () => {

@@ -8,7 +8,7 @@ const UserReviewDetail: FC = () => {
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <div className="mr-3">
-            <Image width={60} height={60} src="/screen2/dantruong.png" alt="" className="rounded-full" />
+            <Image width={60} height={60} src="/dantruong.png" alt="" className="rounded-full" />
           </div>
           <div>
             <h2 className="font-bold text-base text-[#004FC5]">Đan Trường</h2>

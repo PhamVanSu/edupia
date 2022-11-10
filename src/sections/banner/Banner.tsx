@@ -1,6 +1,5 @@
-import Image from 'next/image'
 import { FC } from 'react'
-import RatingStar from './RatingStar'
+import RatingStar from '../content/ratingSection/RatingStar'
 
 const Banner: FC = () => {
   return (
@@ -9,7 +8,7 @@ const Banner: FC = () => {
         <div className="col-span-1"></div>
         <div className="col-span-2 bg-[#F5F8FE] z-30"></div>
         <div className="flex items-center justify-center max-w-[1140px] h-[410px] mx-auto absolute z-40 inset-x-0 top-[35px] bg-[#FFFFFF] rounded shadow-[0px_0px_8px_0px_rgba(0,0,0,0.05)]">
-          <div className="flex justify-center items-center w-[474px] h-[315px] bg-[url('/screen2/thumbnail.png')] bg-[#9A9DA0]">
+          <div className="flex justify-center items-center w-[474px] h-[315px] bg-[url('/thumbnail.png')] bg-[#9A9DA0]">
             <div className="ml-16">
               <h2 className="font-bold text-[24px] mb-6 leading-[29px]">
                 Chinh phục được <br />
@@ -55,7 +54,7 @@ const Banner: FC = () => {
               <div>
                 <del className="font-normal text-xl text-[#747678] ml-2">4.000.000đ</del>
               </div>
-              <div className="flex justify-center items-center w-[50px] h-[50px] bg-[url('/screen2/star7.png')] bg-contain bg-no-repeat ml-3">
+              <div className="flex justify-center items-center w-[50px] h-[50px] bg-[url('/star7.png')] bg-contain bg-no-repeat ml-3">
                 <span className="text-[#FFFFFF] font-bold text-xs -rotate-12">-50%</span>
               </div>
             </div>

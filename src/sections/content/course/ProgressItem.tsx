@@ -15,9 +15,9 @@ const ProgressItem: FC<ProgressItemProps> = () => {
         <div className="flex gap-4">
           <div>
             {toggle ? (
-              <Image alt="icon" width={19} height={19} src="/screen2/arrow-down.png" />
+              <Image alt="icon" width={19} height={19} src="/arrow-down.png" />
             ) : (
-              <Image alt="icon" width={19} height={19} src="/screen2/arrow-up.png" />
+              <Image alt="icon" width={19} height={19} src="/arrow-up.png" />
             )}
           </div>
           <h2 className="heading-4">Chương 1: Hàm số</h2>
@@ -33,7 +33,7 @@ const ProgressItem: FC<ProgressItemProps> = () => {
           {/* left */}
           <div className="flex items-center pl-5 pr-2  gap-5">
             <div>
-              <Image alt="play" width={21} height={21} src="/screen2/play.png" />
+              <Image alt="play" width={21} height={21} src="/play.png" />
             </div>
             <div className="leading-[160%] max-w-[373px]">
               <p className="font-normal text-base">
@@ -59,7 +59,7 @@ const ProgressItem: FC<ProgressItemProps> = () => {
           {/* left */}
           <div className="flex items-center pl-5 pr-2  gap-5">
             <div>
-              <Image alt="play" width={21} height={21} src="/screen2/play.png" />
+              <Image alt="play" width={21} height={21} src="/play.png" />
             </div>
             <div className="leading-[160%] max-w-[373px]">
               <p className="font-normal text-base">

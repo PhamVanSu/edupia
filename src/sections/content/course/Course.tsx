@@ -106,13 +106,7 @@ const Course: FC = () => {
           <h1 className="font-bold text-2xl text-[#060606] mb-4">Giáo viên</h1>
           <div className="flex items-center">
             <div>
-              <Image
-                alt="avatar-teacher"
-                width={240}
-                height={240}
-                src="/screen2/avatar1.png"
-                className="rounded-full"
-              />
+              <Image alt="avatar-teacher" width={240} height={240} src="/avatar1.png" className="rounded-full" />
             </div>
             <div className="ml-4">
               <h2 className="font-normal text-2xl text-[#060606]">Thầy Trần Quang Đồng</h2>

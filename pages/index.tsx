@@ -12,7 +12,7 @@ import RegisterTheCourse from '../src/sections/registerTheCourse/RegisterTheCour
 
 const HomePage: NextPage = () => {
   return (
-    <div>
+    <>
       <Header />
       <div className="body">
         <Hero />
@@ -25,7 +25,7 @@ const HomePage: NextPage = () => {
         <RegisterTheCourse />
       </div>
       <Footer />
-    </div>
+    </>
   )
 }
 
