@@ -17,7 +17,7 @@ const Banner: FC = () => {
           </div>
         </div>
         <div className="h-[315px] w-1/2 ml-11">
-          <a href="#" className="font-normal text-xl text-[#004FC5]">
+          <a href="#" className="font-normal text-xl text-[#2BB4A0]">
             Toán 12 - Chinh phục 8+
           </a>
           <h1 className="font-medium text-2xl color-[#1C1D1F] mt-4">Luyện thi THPT Quốc gia 2023</h1>

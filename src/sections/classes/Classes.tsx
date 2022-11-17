@@ -10,7 +10,7 @@ const Classes: React.FC<ClassesProps> = () => {
       <h2 className="title">Chương trình học</h2>
       <p className="description">Các khóa học được xây dựng bám sát mục tiêu học tập của học sinh</p>
       <div className="mt-10 mb-[30px]">
-        <button className="button bg-[#E6EDF9] text-[#004FC5] font-bold">Lớp 12 - Ôn thi THPT Quốc gia 2023</button>
+        <button className="button bg-[#E6EDF9] text-[#2BB4A0] font-bold">Lớp 12 - Ôn thi THPT Quốc gia 2023</button>
         <button className="button bg-[#ffffff] text-[#9A9DA0] font-medium">Ôn luyện kiến thức Lớp 10-11</button>
       </div>
       <div className="class-area">

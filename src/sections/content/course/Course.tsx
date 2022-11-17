@@ -84,14 +84,14 @@ const Course: FC = () => {
             on the works and hopefully be done on or before Christmas.ve been pushing myself to finish it, but for
             safety, I made this. I hope you guys are doing great and for the upcoming new year. Cheers! -ed
           </span>
-          <p className="cursor-pointer text-[#004FC5] ml-1" onClick={() => setIsExpand(!isExpand)}>
+          <p className="cursor-pointer text-[#2BB4A0] ml-1" onClick={() => setIsExpand(!isExpand)}>
             {isExpand ? 'Ẩn bớt' : 'Xem thêm'}
           </p>
         </div>
         <div id="progress">
           <div className="flex justify-between mt-6 mb-4">
             <h1 className="heading-3">Lộ trình học tập</h1>
-            <span className="text-[#004FC5] font-normal text-xl pr-5">29 buổi</span>
+            <span className="text-[#2BB4A0] font-normal text-xl pr-5">29 buổi</span>
           </div>
           <div>
             <ProgressItem />

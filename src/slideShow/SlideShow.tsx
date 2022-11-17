@@ -15,7 +15,7 @@ const SlideShow = () => {
 
   const properties = {
     duration: 2000,
-    autoplay: false,
+    autoplay: true,
     transitionDuration: 500,
     arrows: false,
     infinite: true,
@@ -37,40 +37,54 @@ const SlideShow = () => {
             </div>
           ))} */}
         <div className="each-slide ">
-          <div className="flex w-[10000px]">
-            <Excellent
-              urlImage="/excellent.svg"
-              name="Nguyễn Duy Tùng"
-              school="THPT Lê Quý Đôn"
-              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
-              title="Thật sự tuyệt vời!!"
-              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
-            />
-            <Excellent
-              urlImage="/excellent.svg"
-              name="Nguyễn Duy Tùng"
-              school="THPT Lê Quý Đôn"
-              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
-              title="Thật sự tuyệt vời!!"
-              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
-            />
-            <Excellent
-              urlImage="/excellent.svg"
-              name="Nguyễn Duy Tùng"
-              school="THPT Lê Quý Đôn"
-              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
-              title="Thật sự tuyệt vời!!"
-              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
-            />
-            <Excellent
-              urlImage="/excellent.svg"
-              name="Nguyễn Duy Tùng"
-              school="THPT Lê Quý Đôn"
-              achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
-              title="Thật sự tuyệt vời!!"
-              description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
-            />
-          </div>
+          <Excellent
+            urlImage="/excellent.svg"
+            name="Nguyễn Duy Tùng"
+            school="THPT Lê Quý Đôn"
+            achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+            title="Thật sự tuyệt vời!!"
+            description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+          />
+        </div>
+        <div className="each-slide ">
+          <Excellent
+            urlImage="/excellent.svg"
+            name="Nguyễn Duy Tùng"
+            school="THPT Lê Quý Đôn"
+            achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+            title="Thật sự tuyệt vời!!"
+            description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+          />
+        </div>
+        <div className="each-slide ">
+          <Excellent
+            urlImage="/excellent.svg"
+            name="Nguyễn Duy Tùng"
+            school="THPT Lê Quý Đôn"
+            achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+            title="Thật sự tuyệt vời!!"
+            description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+          />
+        </div>
+        <div className="each-slide ">
+          <Excellent
+            urlImage="/excellent.svg"
+            name="Nguyễn Duy Tùng"
+            school="THPT Lê Quý Đôn"
+            achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+            title="Thật sự tuyệt vời!!"
+            description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+          />
+        </div>
+        <div className="each-slide ">
+          <Excellent
+            urlImage="/excellent.svg"
+            name="Nguyễn Duy Tùng"
+            school="THPT Lê Quý Đôn"
+            achievement="10đ môn Vật Lý - Á Khoa ĐH Ngoại Thương"
+            title="Thật sự tuyệt vời!!"
+            description="“I have subscribed to this course for a very long time. Of course I have met many mentors. Almost all of his teaching methods” "
+          />
         </div>
       </Slide>
 

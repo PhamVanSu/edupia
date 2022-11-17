@@ -11,7 +11,7 @@ const UserReviewDetail: FC = () => {
             <Image width={60} height={60} src="/dantruong.png" alt="" className="rounded-full" />
           </div>
           <div>
-            <h2 className="font-bold text-base text-[#004FC5]">Đan Trường</h2>
+            <h2 className="font-bold text-base text-[#2BB4A0]">Đan Trường</h2>
             <h3 className="font-medium text-base text-[#060606]">Khóa 2022 - Chinh phục 8+</h3>
           </div>
         </div>

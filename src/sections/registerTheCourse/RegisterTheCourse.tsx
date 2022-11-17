@@ -49,7 +49,7 @@ const RegisterTheCourse: React.FC<RegisterTheCourseProps> = () => {
             </select>
           </div>
         </div>
-        <button className="bg-[#004FC5] py-4 px-[84px] rounded-[69px] text-[#ffffff] text-xl font-bold">
+        <button className="bg-[#2BB4A0] py-4 px-[84px] rounded-[69px] text-[#ffffff] text-xl font-bold">
           Đăng ký khóa học
         </button>
       </div>

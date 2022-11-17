@@ -20,8 +20,8 @@ const TeacherInformation: React.FC<TeacherInformationProps> = ({
     <div className="teacher-information">
       <Image src={urlImage} width={284} height={288} alt="" />
       <div className="text-base font-bold text-[#1C3965]">{occupation}</div>
-      <h3 className="text-[32px] font-bold text-[#1C3965]">{teacherName}</h3>
-      <div className="font-medium text-[#060606] text-xl">{position}</div>
+      <h3 className="text-[32px] font-bold text-[#2BB4A0]">{teacherName}</h3>
+      <div className="font-medium text-[#060606] text-xl leading-[1.6]">{position}</div>
       <p className="text-xl text-[#424344] font-normal">{description}</p>
     </div>
   )

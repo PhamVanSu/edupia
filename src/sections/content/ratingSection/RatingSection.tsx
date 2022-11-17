@@ -135,7 +135,7 @@ const RatingSection: FC = () => {
           <RatingSectionContentLayout>{handleRatingContent()}</RatingSectionContentLayout>
           <a
             href=""
-            className="float-right rounded-full font-bold text-base text-[#004FC5] py-2 px-6 border border-[#004FC5]"
+            className="float-right rounded-full font-bold text-base text-[#2BB4A0] py-2 px-6 border border-[#2BB4A0]"
           >
             Xem thêm
           </a>
@@ -143,7 +143,7 @@ const RatingSection: FC = () => {
         {/* end user review */}
 
         <div className="col-span-3 flex justify-center items-center mb-6">
-          <a href="" className="float-right rounded-full font-bold text-base text-[#FFF] py-3 px-[106px] bg-[#004FC5]">
+          <a href="" className="float-right rounded-full font-bold text-base text-[#FFF] py-3 px-[106px] bg-[#2BB4A0]">
             Đánh giá khóa học
           </a>
         </div>

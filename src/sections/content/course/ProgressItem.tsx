@@ -37,7 +37,7 @@ const ProgressItem: FC<ProgressItemProps> = () => {
             </div>
             <div className="leading-[160%] max-w-[373px]">
               <p className="font-normal text-base">
-                <span className="text-[#004FC5]">Bài 1: </span>Số tự nhiên và các phép tính cộng trừ trong pham vi 10000
+                <span className="text-[#2BB4A0]">Bài 1: </span>Số tự nhiên và các phép tính cộng trừ trong pham vi 10000
               </p>
               <p className="text-[#747678] font-normal text-base">20h - 15/11/2022</p>
             </div>
@@ -59,10 +59,10 @@ const ProgressItem: FC<ProgressItemProps> = () => {
             </div>
             <div className="leading-[160%] max-w-[373px]">
               <p className="font-normal text-base">
-                <span className="text-[#004FC5]">Bài 2: </span>Số tự nhiên và các phép tính cộng trừ trong pham vi 10000
+                <span className="text-[#2BB4A0]">Bài 2: </span>Số tự nhiên và các phép tính cộng trừ trong pham vi 10000
               </p>
               <p className="text-[#747678] font-normal text-base">
-                <span className="text-[#004FC5]">Buổi tiếp theo: </span>20h - 15/11/2022
+                <span className="text-[#2BB4A0]">Buổi tiếp theo: </span>20h - 15/11/2022
               </p>
             </div>
           </div>

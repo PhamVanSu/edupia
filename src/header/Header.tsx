@@ -2,20 +2,23 @@ import React from 'react'
 import Menu from '../menu/Menu'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 const Header: React.FC = () => {
   const router = useRouter()
-  const [path] = router.asPath.split('/')
+  const [_, path] = router.asPath.split('/')
+
+  console.log(path, 'path')
 
   const contentMenu = [
     {
       label: 'Trang chủ',
-      active: path === '/',
+      active: path === '',
       path: '/',
     },
     {
       label: 'Giới thiệu',
-      active: path === '/about',
+      active: path === 'about',
       path: '/about',
     },
     {
@@ -40,7 +43,8 @@ const Header: React.FC = () => {
       <div className="navbar">
         <Link href="/">
           <h1 className="home-link">
-            <span className="text-[#004FC5]">Edupia</span>Class
+            <Image src="/logo.svg" width={73} height={62} alt="" />
+            <span className="text-[#2BB4A0]">Edupia</span>Class
           </h1>
         </Link>
         <div>

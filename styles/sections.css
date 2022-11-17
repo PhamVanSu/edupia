@@ -24,7 +24,7 @@
 }
 
 .hero .register-button {
-  @apply px-[84px] py-4 rounded-[69px] bg-[#004FC5] text-[#ffffff] font-bold text-[20px] mt-[30px];
+  @apply px-[84px] py-4 rounded-[69px] bg-[#FF633C] text-[#ffffff] font-bold text-[20px] mt-[30px];
 }
 
 .hero .star {
@@ -37,7 +37,7 @@
 }
 
 .chart .title {
-  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2] text-center;
+  @apply text-[#2BB4A0] font-medium text-[44px] leading-[1.2] text-center;
 }
 
 .chart .description {
@@ -77,7 +77,7 @@
 }
 
 .chart .line {
-  @apply w-[36.5px] h-full border border-[#004FC5];
+  @apply w-[36.5px] h-full border border-[#2BB4A0];
 }
 
 .chart .line-left {
@@ -89,7 +89,7 @@
 }
 
 .chart .rectangular-border {
-  @apply absolute h-[72px] py-2 px-5 rounded-[10px] border border-[#004FC5] bg-[#ffffff] top-1/2 translate-y-[-50%] text-xl font-medium text-center;
+  @apply absolute h-[72px] py-2 px-5 rounded-[10px] border border-[#2BB4A0] bg-[#ffffff] top-1/2 translate-y-[-50%] text-xl font-medium text-center;
 }
 
 /* classes */
@@ -97,7 +97,7 @@
   @apply flex flex-col items-center mt-10;
 }
 .classes .title {
-  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2] text-center;
+  @apply text-[#2BB4A0] font-medium text-[44px] leading-[1.2] text-center;
 }
 .classes .description {
   @apply text-2xl font-normal text-[#616364] text-center;
@@ -111,7 +111,7 @@
 }
 
 .classes .expand-button {
-  @apply mt-10 py-[14px] px-6 bg-[#ffffff] border border-[#004FC5] rounded-3xl text-[#004FC5] text-lg font-bold;
+  @apply mt-10 py-[14px] px-6 bg-[#ffffff] border border-[#2BB4A0] rounded-3xl text-[#2BB4A0] text-lg font-bold;
 }
 
 .class {
@@ -131,7 +131,7 @@
 }
 
 .class .register-button {
-  @apply py-[6px] px-6 rounded-3xl border border-[#004FC5] bg-[#004FC5] text-[#ffffff] font-semibold text-sm;
+  @apply py-[6px] px-6 rounded-3xl border border-[#2BB4A0] bg-[#2BB4A0] text-[#ffffff] font-semibold text-sm;
 }
 
 /* Teachers */
@@ -139,7 +139,7 @@
   @apply h-[654px] bg-[#F0F5FF] flex flex-col items-center py-10;
 }
 .teachers .title {
-  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2];
+  @apply text-[#2BB4A0] font-medium text-[44px] leading-[1.2];
 }
 
 .teacher .description {
@@ -157,7 +157,7 @@
 }
 
 .utilities .title {
-  @apply text-[#004FC5] font-medium text-[44px] leading-[1.2];
+  @apply text-[#2BB4A0] font-medium text-[44px] leading-[1.2];
 }
 
 .utilities .description {
@@ -182,106 +182,104 @@
 }
 
 .banner-content-wrapper {
-  @apply flex items-center justify-center max-w-[1140px] h-[410px] mx-auto absolute z-40 inset-x-0 top-[35px] bg-[#FFFFFF] rounded shadow-[0px_0px_8px_0px_rgba(0,0,0,0.05)]
+  @apply flex items-center justify-center max-w-[1140px] h-[410px] mx-auto absolute z-40 inset-x-0 top-[35px] bg-[#FFFFFF] rounded shadow-[0px_0px_8px_0px_rgba(0,0,0,0.05)];
 }
 
 .banner .banner-image {
-  @apply flex justify-center items-center w-[474px] h-[315px] bg-[url('/thumbnail.png')] bg-[#9A9DA0]
+  @apply flex justify-center items-center w-[474px] h-[315px] bg-[url('/thumbnail.png')] bg-[#9A9DA0];
 }
 
 .banner-image-button {
-  @apply text-[#FFFFFF] text-[16px] px-[25px] py-[7.5px] bg-[#3350FE] font-[500] rounded-3xl
+  @apply text-[#FFFFFF] text-[16px] px-[25px] py-[7.5px] bg-[#3350FE] font-[500] rounded-3xl;
 }
 
 .banner .dot {
-  @apply w-[6px] h-[6px] rounded-full bg-[#424344] mx-3
+  @apply w-[6px] h-[6px] rounded-full bg-[#424344] mx-3;
 }
 
 .banner .wrapper-discount {
-  @apply flex justify-center items-center w-[50px] h-[50px] bg-[url('/star7.png')] bg-contain bg-no-repeat ml-3
+  @apply flex justify-center items-center w-[50px] h-[50px] bg-[url('/star7.png')] bg-contain bg-no-repeat ml-3;
 }
 
 .register-button {
-  @apply px-[110px] py-[14px] bg-[#004FC5] text-[#FFFFFF] font-bold text-lg rounded-full
+  @apply px-[110px] py-[14px] bg-[#2BB4A0] text-[#FFFFFF] font-bold text-lg rounded-full;
 }
 
 /* related course */
 .related-course-wrapper {
-  @apply w-full border rounded-md p-4
+  @apply w-full border rounded-md p-4;
 }
 
 .related-course-title {
-  @apply font-bold text-lg text-[#000000]
+  @apply font-bold text-lg text-[#000000];
 }
 
 .wrapper-course {
-  @apply cursor-pointer py-2 my-[10px] flex gap-4
+  @apply cursor-pointer py-2 my-[10px] flex gap-4;
 }
 
 .course-image-green1 {
-  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#3E58FE]
+  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#3E58FE];
 }
 
 .course-image-red {
-  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#FE3E3E]
+  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#FE3E3E];
 }
 
 .course-image-green2 {
-  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#2FC46B]
+  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#2FC46B];
 }
 
 .course-image-yellow {
-  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#FEB13E]
+  @apply w-[72px] h-[72px] bg-[url('/girl.png')] bg-cover bg-no-repeat rounded-xl bg-[#FEB13E];
 }
 
-
 .course-name {
-  @apply font-bold text-lg text-[#000000]
+  @apply font-bold text-lg text-[#000000];
 }
 
 .course-time {
-  @apply font-normal text-base text-[#424344]
+  @apply font-normal text-base text-[#424344];
 }
 
 .course-price {
-  @apply font-bold text-sm text-[#EC2E2E]
+  @apply font-bold text-sm text-[#EC2E2E];
 }
 
 /* chapter item */
 .chapter-wrapper {
-  @apply mb-2 px-5 py-4 border border-[#E0E0E0]
+  @apply mb-2 px-5 py-4 border border-[#E0E0E0];
 }
 
 .title-wrapper {
-  @apply flex justify-between cursor-pointer
+  @apply flex justify-between cursor-pointer;
 }
 
 .content-wrapper {
-  @apply p-3 border-t-[1.2px] border-[#F6F6F6] mt-4
+  @apply p-3 border-t-[1.2px] border-[#F6F6F6] mt-4;
 }
 
 .content-item-wrapper {
-  @apply flex justify-between items-center mb-9 mt-3
+  @apply flex justify-between items-center mb-9 mt-3;
 }
 
 .content-document-button {
-  @apply font-normal text-base text-[#060606] px-4 py-1 border border-[#060606] rounded-full
+  @apply font-normal text-base text-[#060606] px-4 py-1 border border-[#060606] rounded-full;
 }
 
 .content-button-blue {
-  @apply font-normal text-base text-[#F0F0F0] px-4 py-1 bg-[#004FC5] rounded-full ml-2 w-[96px]
+  @apply font-normal text-base text-[#F0F0F0] px-4 py-1 bg-[#2BB4A0] rounded-full ml-2 w-[96px];
 }
 
 .content-button-red {
-  @apply font-normal text-base text-[#F0F0F0] px-4 py-1 bg-[#EC2E2E] rounded-full ml-2 w-[96px]
+  @apply font-normal text-base text-[#F0F0F0] px-4 py-1 bg-[#EC2E2E] rounded-full ml-2 w-[96px];
 }
-
 
 /* heading */
 .heading-1-500 {
-  @apply font-medium text-2xl text-[#060606]
+  @apply font-medium text-2xl text-[#060606];
 }
 
 .heading-1-700 {
-  @apply font-bold text-2xl text-[#060606]
+  @apply font-bold text-2xl text-[#060606];
 }

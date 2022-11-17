@@ -57,7 +57,7 @@ img {
 }
 
 .header .login-button {
-  @apply rounded-3xl w-[143px] h-[49px] py-3 px-6 bg-[#004FC5] text-[#ffffff] text-lg font-bold;
+  @apply rounded-3xl w-[143px] h-[49px] py-3 px-6 bg-[#FF633C] text-[#ffffff] text-lg font-bold;
 }
 
 /* Menu */
@@ -71,7 +71,7 @@ img {
 }
 
 .menu .active {
-  @apply text-[#004FC5];
+  @apply text-[#2BB4A0];
 }
 
 .menu .dot {
@@ -132,7 +132,7 @@ img {
   }
 
   .tabBtn-active {
-    @apply font-bold text-base text-[#004FC5] border-b-2 border-[#004FC5];
+    @apply font-bold text-base text-[#2BB4A0] border-b-2 border-[#2BB4A0];
   }
 
   .heading-3 {
@@ -144,6 +144,6 @@ img {
   }
 
   .ratingBtn-active {
-    @apply border-b-2 text-[#004FC5] border-[#004FC5];
+    @apply border-b-2 text-[#2BB4A0] border-[#2BB4A0];
   }
 }
