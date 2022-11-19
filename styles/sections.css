@@ -152,6 +152,9 @@
 
 /* Utilities */
 
+/* Utilities slide */
+
+
 .utilities {
   @apply flex flex-col items-center mt-[88.5px] relative;
 }

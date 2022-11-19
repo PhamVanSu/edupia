@@ -42,6 +42,16 @@ export const utilityData = [
     title: 'Quản lý thời gian',
     description: 'Giám sát và nhắc nhở việc tham gia học & ôn luyện',
   },
+  {
+    urlImage: '/time.svg',
+    title: 'Slide 5',
+    description: 'Giám sát và nhắc nhở việc tham gia học & ôn luyện',
+  },
+  {
+    urlImage: '/time.svg',
+    title: 'Slide 6',
+    description: 'Giám sát và nhắc nhở việc tham gia học & ôn luyện',
+  },
 ]
 
 export const classData = [

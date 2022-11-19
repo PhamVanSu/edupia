@@ -48,6 +48,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.swiper-button-next, .swiper-button-prev {
+  display: none !important
+}
+
 /* Header */
 .header {
   @apply fixed inset-x-0 top-0 block z-50 bg-[#ffffff];
