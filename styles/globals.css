@@ -43,6 +43,11 @@ img {
   display: initial;
 }
 
+html {
+  scroll-padding-top: 8rem;
+  scroll-behavior: smooth;
+}
+
 /* Header */
 .header {
   @apply fixed inset-x-0 top-0 block z-50 bg-[#ffffff];
